@@ -11,7 +11,7 @@ class Solution:
             for s in strs:
                 if ch != s[i]:
                     return shortest[:i]
-        return shortest        
+        return shortest  == "a"  
 
 
 def test():
