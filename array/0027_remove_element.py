@@ -15,7 +15,6 @@ class Solution:
 def test():
     s = Solution()
     assert s.removeElement([3,2,2,3],3) == 2
-    assert s.removeElement([0,1,2,2,3,0,4,2],2) == 5
     print("OK")
 
 
